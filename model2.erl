@@ -1,11 +1,5 @@
--module(model1).
--import(lists, [zip/2]).
--import(maps, [from_list/1, find/2]).
--export([f_refl/2]).
--export([setup/5]).
--export([reflectorAux/1]).
--include("Enigma.hrl").
--record(enigma, {reflector, rotors, ring_settings, plugboard, initial_setting}).
+-module(model2).
+-compile(export_all).
 
 f_refl(X, REFL) ->
 	element(2,find(X,from_list(REFL))).
