@@ -1,6 +1,4 @@
--module (model2).
--import(lists, [zip/2]).
--import(maps, [from_list/1, find/2]).
+-module(model2).
 -include("Enigma.hrl").
 -compile(export_all).
 
